@@ -45,14 +45,14 @@ void loop() {
     if (temperature > 30) { // if temperature exceeds limit specified, servo moves to target
       servo1.write(target);
       location = target;
-      Serial.print("moving to target position");
+      Serial.println("moving to target position");
     }
   } 
   else if (location == target) {
     if (temperature < 26) { // if temperature drops below limit specified, servo moves back to initial position
       servo1.write(initial);
       location = initial;
-      Serial.print("moving back to initial position");
+      Serial.println("moving back to initial position");
     }
   } 
   
