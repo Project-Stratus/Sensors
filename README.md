@@ -111,3 +111,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## Contact
 For questions, issues, or contributions, please open an issue or submit a pull request on this repository.
+
+## Visit the GitHub Repository 🛠️
+View the Code on GitHub - https://github.com/Project-Stratus/Sensors
+
