@@ -1,3 +1,5 @@
+// This is just a copy of stratus_sensors_version2.ino with the addition of servo control code
+
 // Added labels to sensor readings
 // Servo will turn to specified angle given conditions of one of the sensor readings (i.e. pressure)
 
