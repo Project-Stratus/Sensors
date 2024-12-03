@@ -11,6 +11,7 @@ This project demonstrates interfacing multiple sensors using Arduino, collecting
 - **UV Data**: Measures UVA, UVB, and UV Index using the VEML6075 UV sensor.
 - **Pressure Data**: Collects atmospheric pressure data in PSI and Pascal using the MicroPressure sensor.
 - **6-Axis Motion Data**: Captures accelerometer and gyroscope readings using the ISM330DHCX sensor.
+- **GNSS Module (SFE UBlox GNSS)**: Provides latitude, longitude, and altitude data.
 
 ## Requirements
 
@@ -21,6 +22,8 @@ This project demonstrates interfacing multiple sensors using Arduino, collecting
 - **SparkFun ISM330DHCX** (6-Axis Accelerometer and Gyroscope)
 - **Arduino Board** (compatible with I²C communication, e.g., Arduino UNO R4 WiFi)
 - **Qwiic Connectors** (for seamless wiring of sensors)
+- **MicroSD Card Module and compatible SD card** (for data storage)
+- **SparkFun UBlox GNSS Module** (GNSS Receiver)
 
 ### Software
 - Arduino IDE (latest version)
@@ -31,6 +34,9 @@ This project demonstrates interfacing multiple sensors using Arduino, collecting
   - `SparkFun_MicroPressure`
   - `SparkFun_VEML6075_Arduino_Library`
   - `SparkFun_ISM330DHCX`
+  - `SparkFun_u-blox_GNSS_Arduino_Library`
+  - `SPI`
+  - `SD`
 
 ## Setup
 
@@ -41,6 +47,7 @@ This project demonstrates interfacing multiple sensors using Arduino, collecting
      - VEML6075: Default (autodetect)
      - MicroPressure: `0x18`
      - ISM330DHCX: `0x6B`
+     - GNSS: `0x42`
 
 2. **Install Libraries:**
    - Open the Arduino IDE.
